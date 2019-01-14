@@ -1,26 +1,24 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './resources/styles.css';
+import Header from'./components/header_footer/Header';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar'
+import MenuIcon from '@material-ui/icons/Menu';
+import IconButton  from '@material-ui/core/IconButton';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <AppBar
+        position="fixed"
+        style={{
+          backgroundColor:'#2f2f2f',
+          boxShadow:'none',
+          padding:'10px 0px'
+        }}
+      >
+        header
+      </AppBar>
     );
   }
 }

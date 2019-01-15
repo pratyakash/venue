@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './resources/styles.css';
 import Header from'./components/header_footer/Header';
+import Featured from './components/featured/index'
 
 
 class App extends Component {
@@ -11,6 +12,8 @@ class App extends Component {
         background:'cornflowerblue'
       }}>
          <Header />
+         <Featured />
+         
       </div>
      
     );

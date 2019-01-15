@@ -1,5 +1,6 @@
 import React from 'react';
 import Carosel from './carosel';
+import TimeUntil from './TimeUntil';
 
 const Featured = () => {
     return (
@@ -15,6 +16,7 @@ const Featured = () => {
 
             </div>
 
+            <TimeUntil/>
 
         </div>
     );

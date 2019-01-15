@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './resources/styles.css';
 import Header from'./components/header_footer/Header';
-import Featured from './components/featured/index'
+import Featured from './components/featured/index';
+import VenueInfo from './components/VenueInfo/VenueInfo';
 
 
 class App extends Component {
@@ -13,7 +14,7 @@ class App extends Component {
       }}>
          <Header />
          <Featured />
-         
+         <VenueInfo />
       </div>
      
     );

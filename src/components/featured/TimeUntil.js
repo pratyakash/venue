@@ -46,7 +46,6 @@ class TimeUntil extends Component {
                         <div className="countdown_top">
                             Event Starts In
                         </div>
-
                         <div className="countdown_bottom">
                             <div className="countdown_items">
                                 <div className="countdown_time">
@@ -54,31 +53,31 @@ class TimeUntil extends Component {
                                 </div>
                                 <div className="countdown_tag">
                                     Days
-                    </div>
+                                </div>
                             </div>
                             <div className="countdown_items">
                                 <div className="countdown_time">
-                                {this.state.hours}
-                    </div>
+                                    {this.state.hours}
+                                </div>
                                 <div className="countdown_tag">
                                     Hours
-                    </div>
+                                </div>
                             </div>
                             <div className="countdown_items">
                                 <div className="countdown_time">
-                                {this.state.minutes}
-                    </div>
+                                    {this.state.minutes}
+                                </div>
                                 <div className="countdown_tag">
                                     MIN
-                    </div>
+                                </div>
                             </div>
                             <div className="countdown_items">
-                                <div className="countdown_time">
-                                {this.state.seconds}
-                    </div>
+                                <div className="countdown_time no_border">
+                                    {this.state.seconds}
+                                </div>
                                 <div className="countdown_tag">
                                     SEC
-                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -137,10 +137,12 @@ footer .footer_copyright {
     margin-right: 14px;
     padding-right: 49px;
 }
-.countdown_wrapper .countdown_item:last-child .countdown_time{
-    border:none;
-}
 
+
+.no_border{
+    border: none !important;
+    padding-right: 15px !important;
+}
 .countdown_wrapper .countdown_tag {
     text-transform: uppercase;
     font-size: 20px;

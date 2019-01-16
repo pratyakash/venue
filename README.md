@@ -17,3 +17,4 @@ _Mobile View Optimization in nearby future_
   * Highlights
   * VenueInfo
 * One can change above components name according to his/her user.
+* To change location of map -> Copy the iframe code from google map.

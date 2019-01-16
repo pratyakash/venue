@@ -15,10 +15,7 @@ import Footer from './components/header_footer/Footer'
 class App extends Component {
   render() {
     return (
-      <div style={{
-        height:"1000px",
-        background:'cornflowerblue'
-      }}>
+      <div>
         <Header />
         <Element name="feature">
           <Featured />
@@ -36,9 +33,9 @@ class App extends Component {
           <Location />
         </Element>
         
-         <Element name="highlight">
-           <Highlights />
-          </Element>
+        <Element name="highlight">
+          <Highlights />
+        </Element>
         
          <Footer />
       </div>

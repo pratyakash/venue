@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import MyButtons from '../Utils/MyButtons'
+import MyButtons from '../Utils/MyButtons';
+import Zoom from 'react-reveal/Zoom';
 
 class Pricing extends Component {
 
@@ -11,31 +12,33 @@ class Pricing extends Component {
             'Lorem amet anim id nulla veniam nisi anim aute.',
             'Lorem amet anim id nulla veniam nisi anim aute.'
         ],
-        linkto:['#','#','#']
+        linkto:['#','#','#'],
+        delay:[500,0,500]
     }
 
     showBoxes=()=>(
         this.state.prices.map((box,i)=>(
-            <div className="pricing_item">
-                <div className="pricing_inner_wrapper">
-                    <div className="pricing_title">
-                        <span>${this.state.prices[i]}</span>
-                        <span>${this.state.positions[i]}</span>
-                    </div>
-                    <div className="pricing_description">
-                        {this.state.desc[i]}
-                    </div>
-                    <div className="pricing_buttons">
-                        <MyButtons
-                            text="Purchase"
-                            bck="#ffa800"
-                            color="#fffff"
-                            link={this.state.linkto[i]}
-                        />
+            <Zoom delay={this.state.delay[i]} key={i}>
+                 <div className="pricing_item">
+                    <div className="pricing_inner_wrapper">
+                        <div className="pricing_title">
+                            <span>${this.state.prices[i]}</span>
+                            <span>${this.state.positions[i]}</span>
+                        </div>
+                        <div className="pricing_description">
+                            {this.state.desc[i]}
+                        </div>
+                        <div className="pricing_buttons">
+                            <MyButtons
+                                text="Purchase"
+                                bck="#ffa800"
+                                color="#fffff"
+                                link={this.state.linkto[i]}
+                            />
+                        </div>
                     </div>
                 </div>
-            </div>
-
+            </Zoom>
         ))
     )
 

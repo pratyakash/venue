@@ -29,15 +29,15 @@ class App extends Component {
           <Pricing />
         </Element>
 
-        <Element name="location">
-          <Location />
-        </Element>
-        
         <Element name="highlight">
           <Highlights />
         </Element>
-        
-         <Footer />
+
+        <Element name="location">
+          <Location />
+        </Element>
+      
+        <Footer />
       </div>
      
     );

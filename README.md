@@ -18,3 +18,4 @@ _Mobile View Optimization in nearby future_
   * VenueInfo
 * One can change above components name according to his/her user.
 * To change location of map -> Copy the iframe code from google map.
+* To use button on any other section , Import it to that section and pass the required props.

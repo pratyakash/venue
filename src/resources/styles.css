@@ -242,11 +242,11 @@ footer .footer_copyright {
     padding: 70px 0px;
 }
 
-.discount_wrapper .discount_porcentage {
+.discount_wrapper .discount_percentage {
     padding-right: 100px;
 }
 
-.discount_wrapper .discount_porcentage span:nth-child(1) {
+.discount_wrapper .discount_percentage span:nth-child(1) {
     color: #ff4800;
     font-size: 125px;
     font-weight: 400;
@@ -254,7 +254,7 @@ footer .footer_copyright {
     line-height: 120px;
 }
 
-.discount_wrapper .discount_porcentage span:nth-child(2) {
+.discount_wrapper .discount_percentage span:nth-child(2) {
     color: #2c2c2c;
     font-size: 50px;
     font-weight: 400;

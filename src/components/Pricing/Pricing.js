@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MyButtons from '../Utils/MyButtons'
 
 class Pricing extends Component {
 
@@ -24,8 +25,13 @@ class Pricing extends Component {
                     <div className="pricing_description">
                         {this.state.desc[i]}
                     </div>
-                    <div className="pricing_button">
-                        Button
+                    <div className="pricing_buttons">
+                        <MyButtons
+                            text="Purchase"
+                            bck="#ffa800"
+                            color="#fffff"
+                            link={this.state.linkto[i]}
+                        />
                     </div>
                 </div>
             </div>

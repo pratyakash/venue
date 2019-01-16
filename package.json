@@ -2,9 +2,11 @@
   "name": "venue",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://pratyakash.github.io/venue",
   "dependencies": {
     "@material-ui/core": "1.4.3",
     "@material-ui/icons": "1.1.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-reveal": "^1.2.2",
@@ -16,6 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy" :"npm run build",
+    "deploy":"gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

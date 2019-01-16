@@ -11,8 +11,10 @@ const SideDrawer = (props) => {
         scroller.scrollTo(element,{
             duration: 1500,
             delay:100,
-            smooth:true
+            smooth:true,
+            offset: -120
         });
+        props.onClose(false)
     }
 
     return (
@@ -24,23 +26,23 @@ const SideDrawer = (props) => {
         >
         
         <List component="nav">
-            <ListItem button onClick={()=> console.log('ahda')}>
+            <ListItem button onClick={()=> scrollToElement('feature')}>
                 Event Starts In
             </ListItem>   
 
-            <ListItem button onClick={()=> console.log('ahda')}>
+            <ListItem button onClick={()=> scrollToElement('venue')}>
                 Venue Info
             </ListItem>  
 
-            <ListItem button onClick={()=> this.scrollToElement('highlights')}>
+            <ListItem button onClick={()=> scrollToElement('highlight')}>
                 HighLights
             </ListItem>  
 
-            <ListItem button onClick={()=> console.log('ahda')}>
+            <ListItem button onClick={()=> scrollToElement('pricing')}>
                 Pricing
             </ListItem>   
 
-            <ListItem button onClick={()=> console.log('ahda')}>
+            <ListItem button onClick={()=> scrollToElement('location')}>
                 Location
             </ListItem>        
         </List>

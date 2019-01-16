@@ -19,12 +19,27 @@ class App extends Component {
         height:"1000px",
         background:'cornflowerblue'
       }}>
-         <Header />
-         <Featured />
-         <VenueInfo />
-         <Highlights />
-         <Pricing />
-         <Location />
+        <Header />
+        <Element name="feature">
+          <Featured />
+        </Element>
+
+        <Element name="venue">
+          <VenueInfo />
+        </Element>
+
+        <Element name="pricing">
+          <Pricing />
+        </Element>
+
+        <Element name="location">
+          <Location />
+        </Element>
+        
+         <Element name="highlight">
+           <Highlights />
+          </Element>
+        
          <Footer />
       </div>
      

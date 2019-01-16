@@ -7,14 +7,14 @@ const MyButtons = (props) => {
         <div>
             <Button 
                 size="small" 
-                href="#" 
+                href={props.href} 
                 variant="contained" 
                 style={{
-                    background:'red',
-                    color:'white'
+                    background:props.bck,
+                    color: props.color
             }}>
                 <img src={Ticket} className="iconImage" alt="IconButton"/>
-                Button
+                {props.text}
             </Button>
         </div>
     );

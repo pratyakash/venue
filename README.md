@@ -1,4 +1,4 @@
-Open-Source Landing Page can be use for __Business__ , __N.G.O.__ etc.
+Open-Source Or __BoilerPlate__ for Landing Page can be use for __Business__ , __N.G.O.__ etc.
 # Only for Desktop.
 _Mobile View Optimization in nearby future_
 

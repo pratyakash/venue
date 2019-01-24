@@ -118,7 +118,7 @@ footer .footer_copyright {
 
 .countdown_wrapper .countdown_top {
     background: #ff4800;
-    font-size: 19px;
+    font-size: 1.4vmax;
     padding: 10px;
     display: inline-block;
     text-transform: uppercase;

@@ -157,11 +157,11 @@ footer .footer_copyright {
     padding: 90px 0px;
     width: 100%;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .vn_item {
-    min-width: 50%;
+    min-width: 20%;
     color:#ffffff;
     text-align: center;
 }

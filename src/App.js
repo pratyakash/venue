@@ -25,7 +25,7 @@ class App extends Component {
           <VenueInfo />
         </Element>
 
-        <Element name="pricing">
+        {/* <Element name="pricing">
           <Pricing />
         </Element>
 
@@ -37,7 +37,7 @@ class App extends Component {
           <Location />
         </Element>
       
-        <Footer />
+        <Footer /> */}
       </div>
      
     );

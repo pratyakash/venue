@@ -154,7 +154,7 @@ footer .footer_copyright {
 
 .vn_wrapper {
     display: flex;
-    padding: 170px 0px;
+    padding: 90px 0px;
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
@@ -170,6 +170,7 @@ footer .footer_copyright {
     width: 300px;
     border: 2px solid #828282;
     margin: auto;
+    margin-top: 70px;
     padding: 5px;
 }
 

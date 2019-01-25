@@ -18,4 +18,5 @@ Open-Source Or __BoilerPlate__ for Landing Page can be use for __Business__ , __
   * VenueInfo
 * One can change above components name according to his/her user.
 * To change location of map -> Copy the iframe code from google map.
+* To change the ScrollBar-> src/resources/style.css-> Look For ScrollBar at bottom.
 * To use button on any other section , Import it to that section and pass the required props.

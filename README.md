@@ -4,6 +4,7 @@ Open-Source Or __BoilerPlate__ for Landing Page can be use for __Business__ , __
 ### Usage
 * Clone/Fork this repo and copy the files to your newly created repo.
 * npm install to install all the dependencies.
+* Then-> npm start to start the development server.
 
 ### Customization
 * Remove component which your don't want to use in src/App.js.

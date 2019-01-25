@@ -24,7 +24,6 @@ class Discount extends Component {
     }
     render() {
         return (
-            <div className="center_wrapper">
                 <div className="discount_wrapper">
 
                     <Fade onReveal={()=>this.percentage()}>
@@ -48,7 +47,6 @@ class Discount extends Component {
                         </div>
                     </Slide> 
                 </div>
-            </div>
         );
     }
 }

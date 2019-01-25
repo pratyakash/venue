@@ -35,9 +35,9 @@ class VenueInfo extends Component {
         return (
             <div>
                <div className="bck_black">
-                        <div className="vn_wrapper">
-                            {this.showInfo()}
-                        </div>
+                    <div className="vn_wrapper">
+                        {this.showInfo()}
+                    </div>
                 </div>     
             </div>
         );

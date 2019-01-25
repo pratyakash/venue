@@ -380,3 +380,22 @@ footer .footer_copyright {
 }
 
 
+/*====================
+        SCROLL BAR   
+======================*/
+
+
+html::-webkit-scrollbar {
+    width: 5px;
+}
+
+html::-webkit-scrollbar-track {
+  background:#3c3c3c;
+  border-radius: 0px;
+}
+
+/* Handle */
+html::-webkit-scrollbar-thumb {
+    background: whitesmoke;
+    border-radius: 10px;
+}

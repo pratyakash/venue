@@ -25,11 +25,11 @@ class App extends Component {
           <VenueInfo />
         </Element>
 
-        {/* <Element name="pricing">
+        <Element name="pricing">
           <Pricing />
         </Element>
 
-        <Element name="highlight">
+        {/* <Element name="highlight">
           <Highlights />
         </Element>
 

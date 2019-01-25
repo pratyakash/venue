@@ -32,12 +32,12 @@ class App extends Component {
         <Element name="highlight">
           <Highlights />
         </Element>
-
-        {/* <Element name="location">
+{/* 
+        <Element name="location">
           <Location />
         </Element>
       
-        <Footer /> */}
+        <Footer />  */}
       </div>
      
     );

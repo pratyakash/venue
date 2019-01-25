@@ -231,12 +231,12 @@ footer .footer_copyright {
     text-align: center;
     text-transform: uppercase;
     color:#2c2c2c;
-    font-size: 52px;
+    font-size: 3.9vmax;
 }
 
 .highlight_wrapper .highlight_description {
     line-height: 30px;
-    font-size: 18px;
+    font-size: 1.3vmax;
     font-weight: 300;
     border-top: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd;
@@ -245,16 +245,21 @@ footer .footer_copyright {
 
 .discount_wrapper {
     display: flex;
-    padding: 70px 0px;
+    padding: 30px 0px;
+    flex-wrap: wrap !important;
+    justify-content: center;
+    width: 100%;
 }
 
 .discount_wrapper .discount_percentage {
-    padding-right: 100px;
+    padding-right: 7vmax;
+    max-width: 10% ;
+    margin-right: 80px;
 }
 
 .discount_wrapper .discount_percentage span:nth-child(1) {
     color: #ff4800;
-    font-size: 125px;
+    font-size: 9vmax;
     font-weight: 400;
     display: block;
     line-height: 120px;
@@ -262,14 +267,17 @@ footer .footer_copyright {
 
 .discount_wrapper .discount_percentage span:nth-child(2) {
     color: #2c2c2c;
-    font-size: 50px;
+    font-size: 3.5vmax;
     font-weight: 400;
     display: block;
 }
 
-
+.discount_description{
+    max-width: 70%;
+    margin-top: 20px;
+}
 .discount_wrapper .discount_description h3 {
-    font-size: 34px;
+    font-size: 2.5vmax;
     font-weight: 100;
     margin: 0px;
     color: #2c2c2c;
@@ -277,7 +285,7 @@ footer .footer_copyright {
 
 .discount_wrapper .discount_description p { 
     line-height: 30px;
-    font-size: 18px;
+    font-size: 1.4vmax;
     font-weight: 300;
 }
 

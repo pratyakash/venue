@@ -29,11 +29,11 @@ class App extends Component {
           <Pricing />
         </Element>
 
-        {/* <Element name="highlight">
+        <Element name="highlight">
           <Highlights />
         </Element>
 
-        <Element name="location">
+        {/* <Element name="location">
           <Location />
         </Element>
       

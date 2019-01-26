@@ -235,8 +235,8 @@ footer .footer_copyright {
 }
 
 .highlight_wrapper .highlight_description {
-    line-height: 30px;
-    font-size: 1.3vmax;
+    line-height: 25px;
+    font-size: 2vmax;
     font-weight: 300;
     border-top: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd;
@@ -285,7 +285,7 @@ footer .footer_copyright {
 
 .discount_wrapper .discount_description p { 
     line-height: 30px;
-    font-size: 1.4vmax;
+    font-size: 1.7vmax;
     font-weight: 300;
 }
 
